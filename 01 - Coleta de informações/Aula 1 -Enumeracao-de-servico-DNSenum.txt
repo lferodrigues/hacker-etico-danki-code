@@ -1,0 +1,21 @@
+Primeiramente precisamos reunir o maximo de informações possiveis do nosso alvos
+Umas das ferramentas mais utilizadas são:
+Maltego
+netdiscover
+nmap
+entre diversos outros temos tambem 
+SNMP analysis -> protocolo de dados para monitoramento
+SSL analysis -> que analisa a criptografia
+------------------------------------------------------------------------
+1º aula fazendo uma enumeração por DNS
+primeiro passo ir no diretorio binario do kali
+/usr/bin/#
+./dnsenum --enum teste.com.br
+	./dnsenum -h:
+	o subflie -> deixa salvo todos os arquivos
+	o threads -> extrai o numero de performace de diferentes requisições no
+	servidor
+fierce -domain nome_do_site
+	ele verifica qual e o servidor de DNS
+	quais as zonas de transferencia
+	endereço Ip,performace

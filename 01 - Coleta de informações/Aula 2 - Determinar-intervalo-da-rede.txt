@@ -1,0 +1,12 @@
+dmitry -wnspb site_ou_dominio -o /root/dmitry-resultado
+	permite fazer uma pesquisa usando o WhoIs que é uma ferramenta de 
+	enumeração de dados
+	o codigo cat /root/dmitry-resultado.txt 
+	recupera a informação coletada
+	outro comando e um scapy 
+	podemos emitir um comando de text-rout que é um comando que mostra
+	o caminho do seu computador ate o site alocado na rede.
+ans, unans=sr(IP(dst="site_para_analise",ttl=(1,6))/TCP())
+como gerar relatorio
+ans.make_table( lambda s,r: (s.dst,s.ttl,r.src) )
+
