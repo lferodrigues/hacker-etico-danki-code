@@ -40,6 +40,4 @@ Este repositório é destinado aos alunos matriculados no curso de Hack Ético d
 
 ## Aviso Legal
 
-Este curso de Hack Ético é estritamente voltado para fins educacionais e éticos. O objetivo é fornecer conhecimentos e habilidades para ajudar a proteger sistemas e redes contra ataques maliciosos. Os alunos são instruídos a não utilizar as técnicas aprendidas para qualquer atividade ilegal ou prejudicial. A Danki Code
-
- não se responsabiliza pelo uso indevido das informações e técnicas ensinadas neste curso.
+Este curso de Hack Ético é estritamente voltado para fins educacionais e éticos. O objetivo é fornecer conhecimentos e habilidades para ajudar a proteger sistemas e redes contra ataques maliciosos. Os alunos são instruídos a não utilizar as técnicas aprendidas para qualquer atividade ilegal ou prejudicial. A Danki Code não se responsabiliza pelo uso indevido das informações e técnicas ensinadas neste curso.
