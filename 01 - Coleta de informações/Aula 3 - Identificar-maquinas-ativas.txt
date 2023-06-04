@@ -1,0 +1,10 @@
+Antes de fazer uma pentest, primeeiro precisamos identificar as maquinas ativas
+que estão no intervalo de rede de nosso alvo, uma forma simples seria atraves
+da realização do ping na rede do alvo.
+
+Usando o comando nampa podemos encontrar se um host esta ativa ou nao:
+	nmap -sP o numero do ip alvo
+se quiser algo mais detalhado use este comando
+	nping --echo-client "public" nome_do_alvo
+Podemos tambem enviar alguns dados em hexadecimais para uma porta especifica
+	nping -tcp -p 445 -data AF56A43D 216.27.130.162
